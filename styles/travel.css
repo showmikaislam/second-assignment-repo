@@ -1,0 +1,47 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+ 
+.logo-image{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+.logo-part{
+    display: flex;
+    width: 400px;
+
+}
+.logo-text{
+    font-size:20px ;
+    font-weight: 900px;
+}
+#mad{
+    color:  #FF5400;
+}
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right:30px;
+    font-weight: 800;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color:  #424247;
+}
+
+/* banner part  */
+
+.banner{
+    background-image: url(../Images/banner.png);
+}
