@@ -1,5 +1,10 @@
 *{
     font-family: 'Mulish', sans-serif;
+
+}
+body{
+    width: 1150px;
+    margin: 0 auto;
 }
  
 .logo-image{
@@ -42,6 +47,97 @@
 
 /* banner part  */
 
-.banner{
-    background-image: url(../Images/banner.png);
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+.banner-input{
+    height: 30px;
+    border-radius: 8%;
+    border: none;
+}
+
+.button-one{
+    background-color: #FF5400;
+    color: aliceblue;
+    height: 35px;
+    width: 120px;
+    border-radius: 8%;
+    padding-left: 40px;
+    border: none;
+}
+
+.Explore {
+    color: aliceblue;
+}
+
+.banner-options{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    height: 50px;
+    display: inline-flex;
+    gap: 20px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+/* our popular tours  */
+
+.button-two{
+background-color:#FF5400 ;
+color: aliceblue;
+border: none;
+border-radius: 8%;
+  height: 30px;
+}
+
+.popular-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.popular-text{
+    height: 600px;
+    width: 400px;
+}
+.popular-img{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+/* choose destination part  */
+
+.choose-destination{
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 1000;
+    color:  #131318;
+}
+
+/* why choose us section  */
+
+.choose-us{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hospital{
+    background-color: bisque;
+    width: 550px;
+    height: 300px;
+    align-items: center;
 }
